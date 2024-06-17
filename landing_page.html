@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>landing_page</title>
+    <link rel="stylesheet" href="landing_page.css">
+</head>
+<body>
+    <header>
+        <h1>Free Internship Program</h1>
+    </header>
+    <main>
+        <section id="about">
+            <div id="first-section">
+                <h2>About</h2>
+                <p class="paragraph">Encryptix is a company which provide internship in college, university and fresh graduate student.
+                   As a result student can learn and gain knowledge from this remote internship. It provides internship on different 
+                   topics. The name of those internship topics are written below.</p>
+                   <ol type="I">
+                    <li>Web Development</li>
+                    <li>Software Engineering</li>
+                    <li>Machine Learning</li>
+                    <li>Data Analytics</li>
+                   </ol>
+                   <p class="paragraph">If you are interested on one of those internship then you can fill up the sign-up form.
+                </p>
+            </div>
+        </section>
+
+        <section id="sign-up">
+            <div id="second-section">
+                <h2>Sign-Up</h2>
+                <form action="https://formspree.io/f/xayrgvag" method="POST">
+                    <label for="name">Full-Name:</label>
+                    <input type="text" id="name" placeholder="Full-Name" required><br><br>
+                    <label for="email">  Email:</label>
+                    <input type="email" id="email" placeholder="email" required> <br><br>
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Phone" required><br><br>
+                    <label for="college-university">College or University:</label>
+                    <input type="text" name="college-university" placeholder="college / university" required><br><br>
+                    
+                    <h3 class="department">Which department you study?</h3>
+                    <div class="dept">
+                        <input type="radio" id="B.Tech" name="department" value="B.Tech">
+                    <label for="B.Tech">B.teach</label>
+                    <input type="radio" id="cse" name="department" value="cse">
+                    <label for="cse">CSE</label>
+                    <input type="radio" id="ece" name="department" value="ece">
+                    <label for="ece">ECE</label>
+                    </div>
+
+                    <h3 class="pre-course">Which internship you want to do?</h3>
+                    <div class="selection">
+                        <select name="course" id="course">
+                            <option value="web-development">Web Development</option>
+                            <option value="software-engineering">Software Engineering</option>
+                            <option value="data-analysis">Data Analytics</option>
+                            <option value="machine-learning">Machine Learning</option>
+                        </select>
+                    </div><br>
+
+                <button class="submit-button">submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>&copy;Don't copy this landing page</footer>
+</body>
+</html>

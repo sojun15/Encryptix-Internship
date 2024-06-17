@@ -1,5 +1,6 @@
 #start{
-    background-color: gray;
+    background-color: black;
+    color: white;
 }
 #contact a{
     text-align: center;
@@ -37,13 +38,12 @@
 #education{
     text-align: center;
     font-size: 30px;
-    background-color: aqua;
+    background-color: #20eb15;
 }
 
 h1{
     font-size: 40px;
     text-align: center;
-    color: black;
 }
 
 footer{
@@ -55,12 +55,10 @@ footer{
 #skills{
     text-align: center;
     font-size: 30px;
-    background-color: aquamarine;
-    /* margin-left: 30%; */
+    background-color: #20eb15;
 }
 
 #skills #table{
-    /* text-align: center; */
     font-size: 30px;
     margin-left: 40%;
 }
@@ -80,7 +78,6 @@ a:hover{
 }
 
 img{
-    /* margin-top: auto; */
     margin-right: 50%;
     margin-left: 40%;
     margin-bottom: 5%;
