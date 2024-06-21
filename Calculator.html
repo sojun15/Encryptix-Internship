@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="calculator,simple calculator">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <section class="initial-state">
+        <div class="full-part">
+            <form action="">
+                <div class="input-output">
+                    <input type="text" name="text_field">
+                </div>
+                <div class="first-row">
+                    <input type="button" value="AC" onclick="text_field.value=''">
+                    <input type="button" value="C" onclick="text_field.value=text_field.value.toString().slice(0,-1)">
+                    <input type="button" value="ON/OFF" disabled class="on-off">
+                    <input type="button" value="+" onclick="text_field.value += '+'">
+                </div>
+                <div class="second-row">
+                    <input type="button" value="7" onclick="text_field.value += '7'">
+                    <input type="button" value="8" onclick="text_field.value += '8'">
+                    <input type="button" value="9" onclick="text_field.value += '9'">
+                    <input type="button" value="-" onclick="text_field.value += '-'">
+                </div>
+                <div class="third-row">
+                    <input type="button" value="4" onclick="text_field.value += '4'">
+                    <input type="button" value="5" onclick="text_field.value += '5'">
+                    <input type="button" value="6" onclick="text_field.value += '6'">
+                    <input type="button" value="*" onclick="text_field.value += '*'">
+                </div>
+                <div class="fourth-row">
+                    <input type="button" value="1" onclick="text_field.value += '1'">
+                    <input type="button" value="2" onclick="text_field.value += '2'">
+                    <input type="button" value="3" onclick="text_field.value += '3'">
+                    <input type="button" value="/" onclick="text_field.value += '/'">
+                </div>
+                <div class="fifth-row">
+                    <input type="button" value="0" onclick="text_field.value +='0'">
+                    <input type="button" value="." onclick="text_field.value +='.'">
+                    <input type="button" value="=" class="equal-button" onclick="text_field.value = eval(text_field.value)">
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

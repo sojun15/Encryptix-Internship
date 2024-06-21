@@ -1,0 +1,33 @@
+body{
+    background-color: #d3fc03;
+}
+
+.initial-state{
+    width: 50vh;
+    height: 50vh;
+    background-color:  #034efc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30vh 70vh;
+}
+
+form input{
+    width: 40px;
+    height: 30px;
+    margin: 10px;
+    font-size: large;
+}
+
+.input-output input{
+    width: 90%;
+}
+
+.fifth-row .equal-button{
+    width: 6.5rem;
+}
+
+form .on-off{
+    font-size: 10px;
+    padding: 0%;
+}
