@@ -17,6 +17,10 @@
     background-color: greenyellow;
 }
 
+#contact h2{
+    color: black;
+}
+
 #home a{
     font-size: 30px;
     text-align: center;
@@ -33,12 +37,21 @@
     text-align: center;
     font-size: 30px;
     background-color: blue;
+    /* color: white; */
 }
 
+#about a{
+    color: black;
+}
+
+#about a:hover{
+    color: white;
+}
 #education{
     text-align: center;
     font-size: 30px;
     background-color: #20eb15;
+    color: black;
 }
 
 h1{

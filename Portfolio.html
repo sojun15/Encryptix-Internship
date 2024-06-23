@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Portfolio.css">
     
 </head>
 <body>
@@ -25,6 +25,11 @@
     <section id="about">
         <h2>About</h2>
         <p>I am an undergraduate student of computer science of khulna university. I am continuously learning programming knowledge.I interest Full Stack web development.</p>
+        <h2>Address:</h2>
+            <p class="address">Present address:</p>
+            <a href="https://maps.app.goo.gl/oU4CL29VPz4679FCA" target="_blank">Khan Bahadur Ahsanullah Hall,Khulna University</a>
+            <p class="address">Parmanent address:</p>
+            <a href="https://maps.app.goo.gl/aErfT7v2vYLjRotW8" target="_blank">Kasba,Brahmanbaria</a>
     </section>
 
     <section id="skills">
@@ -32,7 +37,7 @@
         <table border="2" cellspacing="0" id="table">
             <thead>
                 <th>Language</th>
-                <th>Knowledge</th>
+                <th>Level</th>
             </thead>
             <tbody>
                 <tr>
@@ -41,11 +46,19 @@
                 </tr>
                 <tr>
                     <td>C++</td>
-                    <td>good</td>
+                    <td><progress id="C++" value="75" max="100"></progress></td>
                 </tr>
                 <tr>
                     <td>Java</td>
-                    <td>good</td>
+                    <td><progress id="Java" value="75" max="100"></progress></td>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td><progress id="Html" value="80" max="100"></progress></td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td><progress id="css" value="70" max="100"></progress></td>
                 </tr>
             </tbody>
         </table>
@@ -62,9 +75,16 @@
         <h2>My resume :<a href="/resume.pdf"> Download</a></h2>
     </section>
     <section id="education">
-        <h2>Education</h2>
-        <p>khulna University, Khulna</p>
-        <p>Navy College, Dhaka</p>
+        <div>
+            <h2>Education</h2>
+            <p>khulna University, Khulna</p>
+            <p>Navy College, Dhaka</p>
+        </div>
+        <div class="details">
+            <h2>Running Course:</h2>
+            <p class="paragraph">Software Quality and Assurance</p>
+            <p class="paragraph">Full Stack Web-Devolopment</p>
+        </div>
     </section>
 
     <section id="contact">

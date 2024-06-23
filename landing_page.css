@@ -8,7 +8,6 @@ main{
 }
 #about{
     width: 46%;
-    min-height: 50%;
     margin: 1rem;
     border: .1rem solid black;
     float: left;
@@ -26,12 +25,19 @@ main{
     display: inline-block;
 }
 
+#course{
+    display: flex;
+    flex-direction: row;
+    margin-left: .5rem;
+    margin-bottom: .5rem;
+}
+
 .department{
     width: 250px;
     display: inline-block;
 }
 .submit-button{
-    margin-left: 3rem;
+    margin-left: 5rem;
     width: 8rem;
 }
 .selection{
@@ -42,7 +48,7 @@ main{
 }
 footer{
     text-align: center;
-    background-color: #ff084e;
+    background-color: #C41245;
     color: white;
     width: 98%;
     border-radius: 50%;
@@ -60,7 +66,7 @@ p,li{
 
 h1{
     width: 98%;
-    border-radius: 50%;
+    border-radius: 30%;
     border: .1rem solid black;
     text-align: center;
     animation-name: landing-page;
@@ -86,58 +92,32 @@ h1{
 
 @media only screen and (max-width:768px){
     #about{
-        width: 90%;
-        margin: 1rem;
-        border: .1rem solid black;
-        display: flex;
-        flex-direction: column;
+        width: 96%;
+        margin: .5rem;
     }
     #sign-up{
-        width: 92%;
-        margin: 1rem;
-        padding: .5rem;
-        border: .2rem dotted black;
-        display: flex;
-        flex-direction: column;
+        width: 93%;
+        margin: .5rem;
     }
-
-    #about{
-        width: 95%;
-        margin: 1rem;
-        border: .1rem solid black;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .submit-button{
-        margin: 0rem 8rem;
-        width: 8rem;
+    footer{
+        margin-top: .5rem;
+        margin-left: 0;
     }
 }
 
 @media only screen and (max-width:600px){
     #about{
-        width: 90%;
-        margin: 1rem;
-        border: .1rem solid black;
-        display: flex;
-        flex-direction: column;
+        width: 95%;
+        margin: .5rem;
     }
     #sign-up{
         width: 90%;
-        margin: 1rem;
-        padding: .5rem;
-        border: .2rem dotted black;
-        display: flex;
-        flex-direction: column;
+        margin: .5rem;
     }
 
-    #about{
-        width: 95%;
-        margin: 1rem;
-        border: .1rem solid black;
-        display: flex;
-        flex-direction: column;
+    footer{
+        margin-top: .5rem;
+        margin-left: 0;
     }
 
     .submit-button{
